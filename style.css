@@ -1,0 +1,237 @@
+.navbar {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    height: 70px;
+    position: relative;
+    padding-top: 15px;
+    padding-left: 30px;
+}
+
+.navbar li {
+    list-style: none;
+    display: inline;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+
+#ab {
+    padding-left: 0px;
+    padding-right: 4px;
+    text-align: left;
+    font-weight: 500;
+    word-spacing: 10%;
+}
+
+#help {
+    font-weight: 100;
+}
+#help a:hover{
+    text-decoration: underline;
+}
+
+#ab a:hover{
+   color: rgb(95, 91, 91);
+}
+.button {
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: 35%;
+}
+
+#b2 {
+    background-color: rgb(67, 141, 232);
+    padding: 10px 20px;
+    margin-left: 16px;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    border: solid rgb(67, 141, 232);
+    border-radius: 10px;
+}
+
+#b1 {
+    background-color: black;
+    padding: 10px 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    border: solid white;
+    border-radius: 10px;
+}
+
+#b2:hover {
+    cursor: pointer;
+    background-color: white;
+}
+
+#b1:hover {
+    cursor: pointer;
+}
+
+#img1 {
+    width: 30px;
+}
+img:hover{
+    cursor: pointer;
+}
+.container {
+    background-color: rgb(197, 205, 240);
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center;
+    align-content: space-evenly;
+    height: 400px;
+}
+
+#h1 {
+    font-size: 80px;
+    font-weight: lighter;
+}
+
+#search {
+    font-size: 20px;
+    width: 800px;
+    height: 60px;
+    border-radius: 5px;
+    border: solid rgb(123, 118, 118);
+    padding-left: 15px;
+}
+
+#searchbt {
+    position: absolute;
+    right: 25%;
+    top: 57%;
+    border: none;
+    color: rgb(14, 13, 13);
+    cursor: pointer;
+    font-weight: 800;
+    font-size: 50px;
+    background-color:rgb(197, 205, 240) ;
+    height: 5px;
+    width: 15px;
+   
+}
+
+.grid {
+    display: grid;
+    height: 400px;
+    grid-template-columns: 100px 350px 100px 350px;
+    grid-column-gap: 30px;
+    grid-row-gap: 5px;
+    padding: 100px;
+    /* padding-top: 150px;
+    padding-right: 200px; */
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-around;
+    padding-bottom: 230px;
+}
+
+.img {
+    width: 80px;
+}
+
+.head {
+    font-size: 25px;
+}
+
+.para {
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+.link a {
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(102, 102, 234);
+}
+
+.fd {
+    background-color: white;
+    height: 300px;
+}
+
+.footer {
+    height: 400px;
+    width: 1250px;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 8fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 50px;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.block {
+    width: 120px;
+    height: 150px;
+}
+
+#hbt {
+    font-size: 20px;
+    height: 45px;
+    width: 110px;
+    background-color: rgb(40, 118, 202);
+    border: none;
+    border-radius: 30px;
+    color: white;
+    cursor: pointer;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+
+.footpara {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    background-color: rgb(14, 13, 13);
+}
+
+a {
+    color: white;
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#block5 {
+    width: 300px;
+    margin-top: 30%;
+    margin-left: 40%;
+}
+
+#imgcopy {
+    width: 40px;
+}
+
+#copypara {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.footer {
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
